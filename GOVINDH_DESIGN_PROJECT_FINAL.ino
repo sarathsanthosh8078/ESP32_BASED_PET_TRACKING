@@ -19,8 +19,8 @@ TinyGPSPlus gps;
 #include "addons/RTDBHelper.h"
 
 // Insert your network credentials
-#define WIFI_SSID "Redmi"
-#define WIFI_PASSWORD "@Sarath123"
+#define WIFI_SSID "add_ssid"
+#define WIFI_PASSWORD "add_password"
 
 // Insert Firebase project API Key
 #define API_KEY "AIzaSyAaAEBwR-kip9g6mYLobTU4AnE1PJnb7Jc"
@@ -39,7 +39,7 @@ int count=1;
 int count1= 0;
 bool signupOK = false;
 
-const String PHONE = "+917560991934";// set the phone number here*************************************************
+const String PHONE = "+91**********";// set the phone number here*************************************************
 int buzzer_timer = 0;
 bool alarm1 = false;
 boolean send_alert_once = true;
